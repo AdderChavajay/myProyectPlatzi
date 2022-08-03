@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header class="w-full fixed z-10" id="header">
+    <nav class="flex justify-between w-4/5 center m-auto items-center">
+        <div class="logo">
+            <img src="../img/logo/logo.ico" class="w-16" alt="">
+        </div>
+        <div class="container-list">
+            <ul class="list flex">
+              <li class="p-auto"><a href="#" class="text-white px-5 py-3 hover:bg-sky-700 rounded-full">Home</a></li>
+              <li class="p-auto"><a href="#" class="text-white px-5 py-3 hover:bg-sky-700 rounded-full">Servicios</a></li>
+              <li class="p-auto"><a href="#" class="text-white px-5 py-3 hover:bg-sky-700 rounded-full">Contactos</a></li>
+              <li class="p-auto"><a href="#" class="text-white px-5 py-3 hover:bg-sky-700 rounded-full">Ayuda</a></li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+  <section class="banner w-full h-screen absolute">
+    <img src="../img/banner/banner.jpg" class="object-fill w-full h-screen" alt="">
+  </section>
+  <main class="w-4/5 h-screen m-auto">
+    <section class="relative flex justify-center items-center h-screen">
+      <div class="text-center">
+        <h1 class="text-7xl font-bold text-white">
+          Curso Platzi
+        </h1>
+        <span class="text-5xl font-semibold center text-amber-100 ">
+          Java Script
+        </span>
+      </div>
+    </section>
+
+    <section class="py-5 flex gap-5">
+      <div class="flex justify-center items-center w-1/2">
+        <div>
+          <h1 class="text-5xl text-center">Balam Cibernetics </h1>
+          <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita maxime eum autem officiis consequatur totam eos. Harum blanditiis soluta labore deleniti, doloremque similique, assumenda ducimus, totam repudiandae culpa voluptatum. Error!</p>
+        </div>
+      </div>
+      <div class="w-1/2">
+        <img src="../img/imgContent/Informatic.jpeg" class="rounded object-fill" alt="">
+      </div>
+    </section>
+    
+    <section>
+      <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <h2 class="text-2xl font-extrabold tracking-tight text-gray-900">Music</h2>
+        <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8" id="content">
+          <!-- content -->
+          <!-- <div class="group relative">
+            <div
+                class="w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
+                <img src="../img/imgContent/flowers.jpg" alt="" class="w-full">
+            </div>
+            <div class="mt-4 flex justify-between">
+                <h3 class="text-sm text-gray-700">
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                    Flowers Yellow
+                </h3>
+            </div>
+        </div> -->
+        </div>
+      </div>
+    </section>
+    <footer class="h-auto bg-sky-800 ">
+      <p class="py-4 text-center text-white">&copy; Reservado</p>
+    </footer>
+  </main>
+  <script src="js/API.js"></script>
+  <script src="js/JSFrontEnd.js"></script>
+</body>
+</html>
